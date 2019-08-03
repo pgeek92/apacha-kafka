@@ -149,7 +149,7 @@
 8. Start Kafka in ***another*** command line: `kafka-server-start.bat config\server.properties`
 
 ***Important: For the rest of the course, don't forget to add the extension .bat to commands being run***
-***WINDOWS Users: do not delete topics.
+***WINDOWS Users: do not delete topics.***
 * Windows has a long standing bug (KAFKA-1194) which makes Kafka crash if you delete topics, The only way to recover from this error to manually delete the folders in data/kafka`
 
 * *Kafka Tools UI* can be used in place of Kafka CLI, which can be downloaded from 
